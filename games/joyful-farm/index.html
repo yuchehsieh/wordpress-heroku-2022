@@ -95,6 +95,7 @@
         }).then((unityInstance) => {
           window.unityContext = {};
           window.unityContext.unityInstance = unityInstance;
+          // this is some change...
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
